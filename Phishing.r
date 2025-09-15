@@ -8,7 +8,7 @@ for (pkg in required_packages) {
 }
 
 # Load and prepare data
-file_path <- "C:/Users/aflah/Downloads/dataset1.csv"
+file_path <- "paste your dataset path"
 data <- read.csv(file_path, header = TRUE, stringsAsFactors = FALSE)
 clean_data <- data[complete.cases(data), ]
 
