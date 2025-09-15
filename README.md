@@ -35,8 +35,7 @@ Clone the repository
 git clone https://github.com/your-username/cyberviz-analytics.git
 cd cyberviz-analytics
 
-Place your dataset as: dataset1.csv
-Update file path in script if needed
+Update dataset path in script 
 
 
 
