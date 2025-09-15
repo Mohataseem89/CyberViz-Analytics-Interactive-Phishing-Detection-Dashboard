@@ -31,3 +31,56 @@
 - RStudio (recommended)
 
 ### Installation & Setup
+Clone the repository
+git clone https://github.com/your-username/cyberviz-analytics.git
+cd cyberviz-analytics
+
+Place your dataset as: dataset1.csv
+Update file path in script if needed
+
+
+
+### Run the Application
+Open in RStudio and run:
+source("cyberviz_dashboard.R")
+
+Dashboard opens automatically in browser at:
+http://127.0.0.1:xxxx
+
+
+
+
+
+## 📊 Dashboard Features
+
+| Tab | Description | Key Visualizations |
+|-----|-------------|-------------------|
+| 📈 **Overview** | Dataset summary & key metrics | Value boxes, target distribution, feature patterns |
+| 🎯 **Feature Analysis** | ML feature importance & rankings | Bar charts, box plots, interactive tables |
+| 🔗 **Correlations** | Feature relationships & heatmaps | Correlation matrices, target analysis |
+| 🎮 **Interactive Plots** | Custom data exploration | Scatter plots, 3D visualization, dynamic charts |
+
+## 📂 Dataset Information
+- **Size**: ~10,000 rows × Multiple cybersecurity features
+- **Type**: Phishing/URL Detection Dataset (CSV format)
+- **Features**: Binary/Numeric values (0, 1, -1) for URL analysis
+- **Quality**: Complete dataset with automated preprocessing
+
+## 📈 Key Results
+- ✅ **100% Data Completeness** - No missing values
+- ✅ **Feature Importance Identified** - Top correlated features ranked
+- ✅ **Real-time Analytics** - Interactive exploration capabilities
+- ✅ **ML-Ready Data** - 80/20 train-test split prepared
+
+
+
+
+
+## 🧑‍💻 Author
+
+**Mohataseem Khan**
+📧 Connect with me: [LinkedIn](https://www.linkedin.com/in/mohataseem-khan/) • [GitHub](https://github.com/Mohataseem89)
+
+
+
+
